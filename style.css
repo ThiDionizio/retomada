@@ -1,4 +1,4 @@
-/* Estilos gerais - Tema Preto e Dourado */
+/* Estilos gerais */
 body {
     background-color: #000000;
     color: #FFD700;
@@ -8,7 +8,7 @@ body {
     min-height: 100vh;
 }
 
-/* Container principal - nova adição */
+/* Container principal */
 .container {
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@ body {
     gap: 40px;
 }
 
-/* Seção esquerda - imagem e nome */
+/* Seção esquerda */
 .left-section {
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ body {
     align-items: flex-end;
 }
 
-/* Estilização do título (agora na direita) */
+/* Estilização do título */
 h1 {
     font-family: 'Cinzel', 'Times New Roman', serif;
     font-size: 2.8em;
@@ -52,11 +52,11 @@ h1::after {
     width: 100px;
     height: 3px;
     background: #FFD700;
-    margin: 15px 0 15px auto; /* Alterado para alinhar à direita */
+    margin: 15px 0 15px auto;
     opacity: 0.7;
 }
 
-/* Estilização da imagem (mantida a mesma, só movida para esquerda) */
+/* Estilização da imagem */
 img {
     display: block;
     margin: 20px 0;
@@ -83,7 +83,7 @@ p {
     letter-spacing: 1px;
 }
 
-/* Estilização do botão (agora na direita) */
+/* Estilização do botão*/
 button {
     display: inline-flex;
     align-items: center;
